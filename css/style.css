@@ -82,9 +82,19 @@ h1, h2 {
     flex-direction: column;
     flex-direction: column-reverse;*/
 }
+
 /********************************* 3.- Justify Content (Dirección Row) **************************/
 .d-flex-3 {
     display: flex;
     /*acomoda el contenido horizontalmente o verticalemnte dependiendo el caso*/
     justify-content: space-around;
 }
+
+/*************************************** 4.- Justify Content (Dirección Column) **********/
+.d-flex-4 {
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    justify-content: space-around;
+}
+
