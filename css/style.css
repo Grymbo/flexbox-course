@@ -130,3 +130,12 @@ h1, h2 {
 .d-flex-8 .box {
     flex-basis: 33.33%;
 }
+
+/*************************** 9.- Gap y Calc ********************************/
+.d-flex-9 {
+    display: flex;
+    gap: 20px;
+}
+.d-flex-9 .box {
+    flex-basis: 33.33%;
+}
